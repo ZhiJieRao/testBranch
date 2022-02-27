@@ -24,4 +24,7 @@ insert into users(user,pwd) values ('root','admin123')
 delete from user where id=2
 - 注意！！！记得要带where不然 会删除整张表
 
+###count
+>count(*)代表返回查询结果的总条数
+- select count(*) from users where status=0
 
